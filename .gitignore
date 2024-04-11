@@ -1,0 +1,52 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+id_pic.jpg
+cookkit.jpg
+1.png
+2.png
+3.png
+4.png
+5.png
+6.png
+7.png
+8.png
+9.png
+10.png
+11.png
+12.png
+13.png
+14.png
+15.png
+16.png
+17.png
+공모전_상장.png
+cookkit.png
+cookkitAdmin.png
+timer.png
+toDo.png
+pf.png
+weather.png
+
+components/Link.js

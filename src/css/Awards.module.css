@@ -1,0 +1,116 @@
+.modal_wrap {
+    flex-direction: row;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 30px;
+    width: 340px;
+    height: 250px;
+    overflow: hidden;
+    transition: 0.3s;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
+}
+.modal_wrap img:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.modal_wrap:hover {
+    transition: 0.3s;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.11), 0 2px 7px rgba(0, 0, 0, 0.12);
+    border: 1px solid rgb(205, 205, 205);
+}
+.img {
+    width: 100%;
+    object-fit: contain;
+    cursor: pointer;
+    -webkit-user-drag: none;
+    transition: 0.3s;
+}
+.modal svg {
+    position: absolute;
+    right: 20px;
+    color: rgba(0, 0, 0, 0.3);
+    transition: 0.1s;
+}
+.modal svg:hover {
+    color: rgba(0, 0, 0, 0.7);
+    transition: 0.1s;
+}
+
+@media screen and (min-width: 1024px) {
+    /* 데탑 */
+    .experience_wrap {
+        flex-direction: column;
+        margin: 30px auto 70px;
+        padding-top: 70px;
+        width: 700px;
+    }
+    .modal_img {
+        cursor: default;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        -webkit-user-drag: none;
+    }
+    .modal {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* 타블렛 */
+    .experience_wrap {
+        flex-direction: column;
+        margin: 30px auto 70px;
+        padding-top: 70px;
+        width: 630px;
+    }
+    .modal_img {
+        cursor: default;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        -webkit-user-drag: none;
+    }
+    .modal {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    /* 타블렛과 모바일 사이 */
+    .experience_wrap {
+        flex-direction: column;
+        margin: 0 auto 70px;
+        padding-top: 70px;
+        width: 500px;
+    }
+    .modal_img {
+        cursor: default;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        -webkit-user-drag: none;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    /* 모바일 */
+    .experience_wrap {
+        flex-direction: column;
+        margin: 0 auto 70px;
+        padding-top: 70px;
+        width: 350px;
+    }
+    .modal_wrap {
+        margin: 0 auto;
+    }
+    .modal_img {
+        cursor: default;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        -webkit-user-drag: none;
+    }
+}
