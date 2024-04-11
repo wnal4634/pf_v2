@@ -31,6 +31,7 @@ const Side = () => {
             behavior: "smooth",
         });
     };
+    const v1 = "https://wnal4634.github.io/pf/";
     const appearInitial = useRef();
     const appearLink_1 = useRef();
     const appearLink_2 = useRef();
@@ -119,8 +120,14 @@ const Side = () => {
                             smooth={true}
                             className={styles.link}
                         >
-                            <div ref={appearLink_4}>Awards</div>
+                            <div ref={appearLink_4}>Experience</div>
                         </Link>
+                        <a
+                            href="https://wnal4634.github.io/pf/"
+                            className={styles.link}
+                        >
+                            <div ref={appearLink_5}>v1</div>
+                        </a>
                     </div>
                 </SideDiv>
             </PC>
@@ -173,8 +180,16 @@ const Side = () => {
                                         smooth={true}
                                         className={styles.link}
                                     >
-                                        Awards
+                                        Experience
                                     </Link>
+                                </li>
+                                <li className={styles.menu_item}>
+                                    <a
+                                        href="https://wnal4634.github.io/pf/"
+                                        className={styles.link}
+                                    >
+                                        v1
+                                    </a>
                                 </li>
                             </ul>
                         </div>
